@@ -1,0 +1,137 @@
+2025-09-18 12:25:31,080 - INFO - Successfully loaded 5 entries from example.csv
+2025-09-18 12:25:31,081 - INFO - Processing jersey 23: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2025-09-18 12:25:31,081 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2025-09-18 12:25:55,699 - ERROR - Error downloading audio for jersey 23: Command '['ffmpeg', '-i', 'output/temp_23.mhtml', '-t', '30', '-acodec', 'mp3', '-ab', '192k', 'output/23.mp3', '-y']' returned non-zero exit status 183.
+2025-09-18 12:25:55,707 - INFO - Processing jersey 7: Bohemian Rhapsody
+2025-09-18 12:25:55,712 - INFO - Searching YouTube for: Bohemian Rhapsody
+2025-09-18 12:26:01,782 - INFO - Found YouTube URL for 'Bohemian Rhapsody': https://www.youtube.com/watch?v=fJ9rUzIMcZQ
+2025-09-18 12:26:11,462 - ERROR - Error downloading audio for jersey 7: Command '['ffmpeg', '-i', 'output/temp_7.mhtml', '-t', '30', '-acodec', 'mp3', '-ab', '192k', 'output/7.mp3', '-y']' returned non-zero exit status 183.
+2025-09-18 12:26:11,463 - INFO - Processing jersey 42: https://youtu.be/9bZkp7q19f0
+2025-09-18 12:26:11,464 - INFO - Processing YouTube URL: https://youtu.be/9bZkp7q19f0
+2025-09-18 12:26:22,159 - ERROR - Error downloading audio for jersey 42: Command '['ffmpeg', '-i', 'output/temp_42.mhtml', '-t', '30', '-acodec', 'mp3', '-ab', '192k', 'output/42.mp3', '-y']' returned non-zero exit status 183.
+2025-09-18 12:26:22,160 - INFO - Processing jersey 15: Imagine Dragons - Believer
+2025-09-18 12:26:22,161 - INFO - Searching YouTube for: Imagine Dragons - Believer
+2025-09-18 12:26:27,772 - INFO - Found YouTube URL for 'Imagine Dragons - Believer': https://www.youtube.com/watch?v=7wtfhZwyrcc
+2025-09-18 12:26:37,408 - ERROR - Error downloading audio for jersey 15: Command '['ffmpeg', '-i', 'output/temp_15.mhtml', '-t', '30', '-acodec', 'mp3', '-ab', '192k', 'output/15.mp3', '-y']' returned non-zero exit status 183.
+2025-09-18 12:26:37,409 - INFO - Processing jersey 99: https://www.youtube.com/watch?v=L_jWHffIx5E
+2025-09-18 12:26:37,409 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=L_jWHffIx5E
+2025-09-18 12:26:45,557 - ERROR - Error downloading audio for jersey 99: Command '['ffmpeg', '-i', 'output/temp_99.mhtml', '-t', '30', '-acodec', 'mp3', '-ab', '192k', 'output/99.mp3', '-y']' returned non-zero exit status 183.
+2025-09-18 12:26:45,558 - INFO - Processing complete! Successful: 0, Failed: 5
+2025-09-18 12:27:12,242 - INFO - Successfully loaded 1 entries from test_simple.csv
+2025-09-18 12:27:12,242 - INFO - Processing jersey 1: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2025-09-18 12:27:12,242 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2025-09-18 12:27:18,869 - ERROR - Downloaded file is not a valid audio format: output/temp_1.mhtml
+2025-09-18 12:27:18,869 - INFO - Processing complete! Successful: 0, Failed: 1
+2025-09-18 12:27:42,999 - INFO - Successfully loaded 1 entries from test_working.csv
+2025-09-18 12:27:42,999 - INFO - Processing jersey 1: https://www.youtube.com/watch?v=9bZkp7q19f0
+2025-09-18 12:27:42,999 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=9bZkp7q19f0
+2025-09-18 12:28:05,915 - INFO - Successfully downloaded and trimmed to 30s: output/1.mp3
+2025-09-18 12:28:05,918 - INFO - Processing complete! Successful: 1, Failed: 0
+2025-09-18 12:28:55,366 - INFO - Successfully loaded 5 entries from example.csv
+2025-09-18 12:28:55,367 - INFO - Processing jersey 23: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2025-09-18 12:28:55,367 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2025-09-18 12:29:16,106 - INFO - Successfully downloaded and trimmed to 30s: output/23.mp3
+2025-09-18 12:29:16,111 - INFO - Processing jersey 7: Bohemian Rhapsody
+2025-09-18 12:29:16,112 - INFO - Searching YouTube for: Bohemian Rhapsody
+2025-09-18 12:29:21,354 - INFO - Found YouTube URL for 'Bohemian Rhapsody': https://www.youtube.com/watch?v=fJ9rUzIMcZQ
+2025-09-18 12:29:43,153 - INFO - Successfully downloaded and trimmed to 30s: output/7.mp3
+2025-09-18 12:29:43,154 - INFO - Processing jersey 42: https://youtu.be/9bZkp7q19f0
+2025-09-18 12:29:43,155 - INFO - Processing YouTube URL: https://youtu.be/9bZkp7q19f0
+2025-09-18 12:30:01,244 - INFO - Successfully downloaded and trimmed to 30s: output/42.mp3
+2025-09-18 12:30:01,248 - INFO - Processing jersey 15: Imagine Dragons - Believer
+2025-09-18 12:30:01,248 - INFO - Searching YouTube for: Imagine Dragons - Believer
+2025-09-18 12:30:08,064 - INFO - Found YouTube URL for 'Imagine Dragons - Believer': https://www.youtube.com/watch?v=7wtfhZwyrcc
+2025-09-18 12:30:26,507 - INFO - Successfully downloaded and trimmed to 30s: output/15.mp3
+2025-09-18 12:30:26,508 - INFO - Processing jersey 99: https://www.youtube.com/watch?v=L_jWHffIx5E
+2025-09-18 12:30:26,509 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=L_jWHffIx5E
+2025-09-18 12:30:43,786 - INFO - Successfully downloaded and trimmed to 30s: output/99.mp3
+2025-09-18 12:30:43,788 - INFO - Processing complete! Successful: 5, Failed: 0
+2025-09-18 12:38:03,436 - INFO - Successfully loaded 5 entries from example.csv
+2025-09-18 12:38:03,437 - INFO - Processing jersey 23: https://www.youtube.com/watch?v=dQw4w9WgXcQ (start: 0s)
+2025-09-18 12:38:03,437 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2025-09-18 12:38:20,218 - INFO - Successfully downloaded and trimmed to 30s starting at 0s: output/23.mp3
+2025-09-18 12:38:20,220 - INFO - Processing jersey 7: Bohemian Rhapsody (start: 30s)
+2025-09-18 12:38:20,221 - INFO - Searching YouTube for: Bohemian Rhapsody
+2025-09-18 12:38:26,055 - INFO - Found YouTube URL for 'Bohemian Rhapsody': https://www.youtube.com/watch?v=fJ9rUzIMcZQ
+2025-09-18 12:38:45,658 - INFO - Successfully downloaded and trimmed to 30s starting at 30s: output/7.mp3
+2025-09-18 12:38:45,659 - INFO - Processing jersey 42: https://youtu.be/9bZkp7q19f0 (start: 0s)
+2025-09-18 12:38:45,660 - INFO - Processing YouTube URL: https://youtu.be/9bZkp7q19f0
+2025-09-18 12:39:01,716 - INFO - Successfully downloaded and trimmed to 30s starting at 0s: output/42.mp3
+2025-09-18 12:39:01,717 - INFO - Processing jersey 15: Imagine Dragons - Believer (start: 60s)
+2025-09-18 12:39:01,717 - INFO - Searching YouTube for: Imagine Dragons - Believer
+2025-09-18 12:39:07,325 - INFO - Found YouTube URL for 'Imagine Dragons - Believer': https://www.youtube.com/watch?v=7wtfhZwyrcc
+2025-09-18 12:39:25,257 - INFO - Successfully downloaded and trimmed to 30s starting at 60s: output/15.mp3
+2025-09-18 12:39:25,258 - INFO - Processing jersey 99: https://www.youtube.com/watch?v=L_jWHffIx5E (start: 0s)
+2025-09-18 12:39:25,259 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=L_jWHffIx5E
+2025-09-18 12:39:45,372 - INFO - Successfully downloaded and trimmed to 30s starting at 0s: output/99.mp3
+2025-09-18 12:39:45,375 - INFO - Processing complete! Successful: 5, Failed: 0
+2025-09-18 12:42:40,068 - INFO - Successfully loaded 5 entries from example.csv
+2025-09-18 12:42:40,069 - INFO - Processing jersey 23: https://www.youtube.com/watch?v=dQw4w9WgXcQ (start: 0s)
+2025-09-18 12:42:40,069 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2025-09-18 12:42:57,805 - INFO - Successfully downloaded and trimmed to 30s starting at 0s: output/23.mp3
+2025-09-18 12:42:57,806 - INFO - Processing jersey 7: Bohemian Rhapsody (start: 30s)
+2025-09-18 12:42:57,806 - INFO - Searching YouTube for: Bohemian Rhapsody
+2025-09-18 12:43:02,629 - INFO - Found clean YouTube URL for 'Bohemian Rhapsody': https://www.youtube.com/watch?v=wnio6RKfLZY
+2025-09-18 12:43:20,723 - INFO - Successfully downloaded and trimmed to 30s starting at 30s: output/7.mp3
+2025-09-18 12:43:20,724 - INFO - Processing jersey 42: https://youtu.be/9bZkp7q19f0 (start: 0s)
+2025-09-18 12:43:20,725 - INFO - Processing YouTube URL: https://youtu.be/9bZkp7q19f0
+2025-09-18 12:43:37,801 - INFO - Successfully downloaded and trimmed to 30s starting at 0s: output/42.mp3
+2025-09-18 12:43:37,803 - INFO - Processing jersey 15: Imagine Dragons - Believer (start: 60s)
+2025-09-18 12:43:37,803 - INFO - Searching YouTube for: Imagine Dragons - Believer
+2025-09-18 12:43:42,923 - INFO - Found clean YouTube URL for 'Imagine Dragons - Believer': https://www.youtube.com/watch?v=H0CwGNCzAzA
+2025-09-18 12:43:58,739 - INFO - Successfully downloaded and trimmed to 30s starting at 60s: output/15.mp3
+2025-09-18 12:43:58,740 - INFO - Processing jersey 99: https://www.youtube.com/watch?v=L_jWHffIx5E (start: 0s)
+2025-09-18 12:43:58,740 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=L_jWHffIx5E
+2025-09-18 12:44:17,753 - INFO - Successfully downloaded and trimmed to 30s starting at 0s: output/99.mp3
+2025-09-18 12:44:17,754 - INFO - Processing complete! Successful: 5, Failed: 0
+2025-09-18 12:50:12,142 - INFO - Successfully loaded 71 entries from songs.csv
+2025-09-18 12:50:12,144 - INFO - Processing jersey 0: Upside Down - Jack Johnson (start: 0s)
+2025-09-18 12:50:12,146 - INFO - Searching YouTube for: Upside Down - Jack Johnson
+2025-09-18 12:50:19,210 - INFO - Found clean YouTube URL for 'Upside Down - Jack Johnson': https://www.youtube.com/watch?v=dqUdI4AIDF0
+2025-09-18 12:50:41,109 - INFO - Successfully downloaded and trimmed to 30s starting at 0s: output/0.mp3
+2025-09-18 12:50:41,113 - INFO - Processing jersey 1: https://youtu.be/c36LsIAs-Yc?si=vBsp3-RpPyNkeRwT (start: 0s)
+2025-09-18 12:50:41,117 - INFO - Processing YouTube URL: https://youtu.be/c36LsIAs-Yc?si=vBsp3-RpPyNkeRwT
+2025-09-18 12:51:06,956 - INFO - Successfully downloaded and trimmed to 30s starting at 0s: output/1.mp3
+2025-09-18 12:51:06,959 - INFO - Processing jersey 2: sold out dates- lil baby and gunna (start: 0s)
+2025-09-18 12:51:06,959 - INFO - Searching YouTube for: sold out dates- lil baby and gunna
+2025-09-18 12:51:13,513 - INFO - Found clean YouTube URL for 'sold out dates- lil baby and gunna': https://www.youtube.com/watch?v=awRuuvFHYnY
+2025-09-18 12:51:32,780 - INFO - Successfully downloaded and trimmed to 30s starting at 0s: output/2.mp3
+2025-09-18 12:51:32,783 - INFO - Processing jersey 3: I’m still standing - Elton John (start: 0s)
+2025-09-18 12:51:32,783 - INFO - Searching YouTube for: I’m still standing - Elton John
+2025-09-18 12:51:39,825 - INFO - Found clean YouTube URL for 'I’m still standing - Elton John': https://www.youtube.com/watch?v=ZHwVBirqD2s
+2025-09-18 12:51:56,220 - INFO - Successfully downloaded and trimmed to 30s starting at 0s: output/3.mp3
+2025-09-18 12:51:56,223 - INFO - Processing jersey 4: I was made for loving you - Kiss (start: 0s)
+2025-09-18 12:51:56,223 - INFO - Searching YouTube for: I was made for loving you - Kiss
+2025-09-18 12:52:04,073 - INFO - Found clean YouTube URL for 'I was made for loving you - Kiss': https://www.youtube.com/watch?v=lxdE1UlYWsg
+2025-09-18 12:52:35,770 - INFO - Successfully downloaded and trimmed to 30s starting at 0s: output/4.mp3
+2025-09-18 12:52:35,774 - INFO - Processing jersey 5: Chelsea Dagger (start: 0s)
+2025-09-18 12:52:35,776 - INFO - Searching YouTube for: Chelsea Dagger
+2025-09-18 12:52:42,194 - INFO - Found clean YouTube URL for 'Chelsea Dagger': https://www.youtube.com/watch?v=Ur_ib5BTtsI
+2025-09-18 12:52:58,436 - INFO - Successfully downloaded and trimmed to 30s starting at 0s: output/5.mp3
+2025-09-18 12:52:58,438 - INFO - Processing jersey 6: Mud on the Tires- Brad Paisley (start: 51s)
+2025-09-18 12:52:58,438 - INFO - Searching YouTube for: Mud on the Tires- Brad Paisley
+2025-09-18 12:53:03,260 - INFO - Found clean YouTube URL for 'Mud on the Tires- Brad Paisley': https://www.youtube.com/watch?v=X6nxHNrIwJA
+2025-09-18 12:53:18,900 - INFO - Successfully downloaded and trimmed to 30s starting at 51s: output/6.mp3
+2025-09-18 12:53:18,902 - INFO - Processing jersey 7: Chelsea Dagger (start: 0s)
+2025-09-18 12:53:18,902 - INFO - Searching YouTube for: Chelsea Dagger
+2025-09-18 12:53:23,151 - INFO - Found clean YouTube URL for 'Chelsea Dagger': https://www.youtube.com/watch?v=Ur_ib5BTtsI
+2025-09-18 12:53:36,941 - INFO - Successfully downloaded and trimmed to 30s starting at 0s: output/7.mp3
+2025-09-18 12:53:36,942 - INFO - Processing jersey 8: U can’t touch this - MC Hammer (start: 0s)
+2025-09-18 12:53:36,942 - INFO - Searching YouTube for: U can’t touch this - MC Hammer
+2025-09-18 12:53:41,413 - INFO - Found clean YouTube URL for 'U can’t touch this - MC Hammer': https://www.youtube.com/watch?v=OTptWfh9_00
+2025-09-18 12:53:58,033 - INFO - Successfully downloaded and trimmed to 30s starting at 0s: output/8.mp3
+2025-09-18 12:53:58,035 - INFO - Processing jersey 9: Texas-BigX (start: 0s)
+2025-09-18 12:53:58,035 - INFO - Searching YouTube for: Texas-BigX
+2025-09-18 12:54:02,386 - INFO - Found clean YouTube URL for 'Texas-BigX': https://www.youtube.com/watch?v=6pU03CPHhEM
+2025-09-18 12:54:15,627 - INFO - Successfully downloaded and trimmed to 30s starting at 0s: output/9.mp3
+2025-09-18 12:54:15,629 - INFO - Processing jersey 10: Theme from New York- frank sinatra (start: 0s)
+2025-09-18 12:54:15,629 - INFO - Searching YouTube for: Theme from New York- frank sinatra
+2025-09-18 12:54:20,097 - INFO - Found clean YouTube URL for 'Theme from New York- frank sinatra': https://www.youtube.com/watch?v=le1QF3uoQNg
+2025-09-18 12:54:36,817 - INFO - Successfully downloaded and trimmed to 30s starting at 0s: output/10.mp3
+2025-09-18 12:54:36,819 - INFO - Processing jersey 11: “Just Wanna Rock” by Lil Uzi Vert (start: 0s)
+2025-09-18 12:54:36,819 - INFO - Searching YouTube for: “Just Wanna Rock” by Lil Uzi Vert
+2025-09-18 12:54:41,218 - INFO - Found clean YouTube URL for '“Just Wanna Rock” by Lil Uzi Vert': https://www.youtube.com/watch?v=zFaLuknjxZ4
+2025-09-18 12:54:59,378 - INFO - Successfully downloaded and trimmed to 30s starting at 0s: output/11.mp3
+2025-09-18 12:54:59,381 - INFO - Processing jersey 12: Country (start: 0s)
+2025-09-18 12:54:59,382 - INFO - Searching YouTube for: Country
+2025-09-18 12:55:04,296 - INFO - Found clean YouTube URL for 'Country': https://www.youtube.com/watch?v=BYMqvahuFUQ
