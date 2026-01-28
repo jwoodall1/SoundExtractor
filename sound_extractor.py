@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Sound Extractor - Convert YouTube links or song names to MP3 files
-with jersey numbers as filenames.
+Sound Extractor - Minimal version using only built-in modules and yt-dlp
+Convert YouTube links or song names to MP3 files with jersey numbers as filenames.
 """
 
 import os
@@ -9,12 +9,11 @@ import sys
 import csv
 import logging
 import re
+import subprocess
+import urllib.parse
 from pathlib import Path
 from typing import List, Dict, Optional
 import yt_dlp
-import pandas as pd
-import requests
-from bs4 import BeautifulSoup
 
 
 class SoundExtractor:
@@ -36,7 +35,7 @@ class SoundExtractor:
         
         # Configure yt-dlp options
         self.ydl_opts = {
-            'format': 'bestaudio/best',
+            'format': 'bestaudio[ext=m4a]/bestaudio/best',
             'outtmpl': str(self.output_dir / '%(title)s.%(ext)s'),
             'postprocessors': [{
                 'key': 'FFmpegExtractAudio',
@@ -45,22 +44,41 @@ class SoundExtractor:
             }],
             'quiet': False,
             'no_warnings': False,
+            'extract_flat': False,
+            'writethumbnail': False,
+            'writeinfojson': False,
+            'cookiesfrombrowser': None,  # Try to use browser cookies
+            'extractor_retries': 3,
+            'fragment_retries': 3,
+            'retries': 3,
         }
 
     def read_csv(self, csv_file: str) -> List[Dict[str, str]]:
         """Read CSV file and return list of dictionaries with jersey numbers and songs."""
         try:
-            df = pd.read_csv(csv_file)
+            data = []
+            with open(csv_file, 'r', newline='', encoding='utf-8') as file:
+                reader = csv.DictReader(file)
+                
+                # Check for required columns
+                if 'jersey_number' not in reader.fieldnames or 'song' not in reader.fieldnames:
+                    raise ValueError("CSV must have 'jersey_number' and 'song' columns")
+                
+                for row in reader:
+                    if row['jersey_number'].strip() and row['song'].strip():
+                        entry = {
+                            'jersey_number': row['jersey_number'].strip(),
+                            'song': row['song'].strip()
+                        }
+                        
+                        # Add start_time if present, otherwise default to 0
+                        if 'start_time' in reader.fieldnames and row['start_time'].strip():
+                            entry['start_time'] = row['start_time'].strip()
+                        else:
+                            entry['start_time'] = '0'
+                        
+                        data.append(entry)
             
-            # Check for required columns
-            required_columns = ['jersey_number', 'song']
-            missing_columns = [col for col in required_columns if col not in df.columns]
-            
-            if missing_columns:
-                raise ValueError(f"Missing required columns: {missing_columns}")
-            
-            # Convert to list of dictionaries
-            data = df[required_columns].to_dict('records')
             self.logger.info(f"Successfully loaded {len(data)} entries from {csv_file}")
             return data
             
@@ -77,38 +95,39 @@ class SoundExtractor:
         ]
         return any(re.search(pattern, url) for pattern in youtube_patterns)
 
-    def search_youtube(self, query: str) -> Optional[str]:
-        """Search YouTube for a song and return the first result URL."""
+    def search_youtube_simple(self, query: str) -> Optional[str]:
+        """Simple YouTube search using yt-dlp's search functionality, prioritizing clean versions."""
         try:
-            search_query = f"{query} song"
-            search_url = f"https://www.youtube.com/results?search_query={search_query.replace(' ', '+')}"
+            # First try to find a clean version
+            clean_search_query = f"ytsearch1:{query} clean song"
             
-            headers = {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-            }
-            
-            response = requests.get(search_url, headers=headers)
-            response.raise_for_status()
-            
-            soup = BeautifulSoup(response.text, 'html.parser')
-            
-            # Look for video links in the search results
-            video_links = soup.find_all('a', href=re.compile(r'/watch\?v='))
-            
-            if video_links:
-                video_id = video_links[0]['href'].split('v=')[1].split('&')[0]
-                youtube_url = f"https://www.youtube.com/watch?v={video_id}"
-                self.logger.info(f"Found YouTube URL for '{query}': {youtube_url}")
-                return youtube_url
-            else:
-                self.logger.warning(f"No YouTube results found for '{query}'")
-                return None
+            with yt_dlp.YoutubeDL({'quiet': True}) as ydl:
+                try:
+                    info = ydl.extract_info(clean_search_query, download=False)
+                    if info and 'entries' in info and info['entries']:
+                        video_url = info['entries'][0]['webpage_url']
+                        self.logger.info(f"Found clean YouTube URL for '{query}': {video_url}")
+                        return video_url
+                except Exception as e:
+                    self.logger.warning(f"Clean version search failed for '{query}': {e}")
                 
+                # If clean version search fails, try regular search as fallback
+                try:
+                    regular_search_query = f"ytsearch1:{query} song"
+                    info = ydl.extract_info(regular_search_query, download=False)
+                    if info and 'entries' in info and info['entries']:
+                        video_url = info['entries'][0]['webpage_url']
+                        self.logger.info(f"Found YouTube URL for '{query}' (fallback): {video_url}")
+                        return video_url
+                except Exception as e:
+                    self.logger.warning(f"Regular search also failed for '{query}': {e}")
+                    return None
+                    
         except Exception as e:
             self.logger.error(f"Error searching YouTube for '{query}': {e}")
             return None
 
-    def download_audio(self, url: str, jersey_number: str) -> bool:
+    def download_audio(self, url: str, jersey_number: str, start_time: str = '0') -> bool:
         """Download audio from YouTube URL and rename to jersey number."""
         try:
             # Create temporary filename
@@ -132,18 +151,27 @@ class SoundExtractor:
                     downloaded_file = downloaded_files[0]
                     final_filename = self.output_dir / f"{jersey_number}.mp3"
                     
-                    # Convert to mp3 and trim to 30 seconds using ffmpeg
-                    import subprocess
-                    subprocess.run([
-                        'ffmpeg', '-i', str(downloaded_file), 
-                        '-t', '30',  # Trim to 30 seconds
-                        '-acodec', 'mp3', '-ab', '192k', 
-                        str(final_filename), '-y'
-                    ], check=True)
-                    downloaded_file.unlink()  # Remove temp file
-                    
-                    self.logger.info(f"Successfully downloaded and trimmed to 30s: {final_filename}")
-                    return True
+                    # Check if it's already an audio file we can work with
+                    audio_extensions = ['.m4a', '.mp3', '.webm', '.ogg', '.wav']
+                    if downloaded_file.suffix.lower() in audio_extensions:
+                        # Convert to mp3 and trim to 45 seconds using ffmpeg
+                        ffmpeg_cmd = [
+                            'ffmpeg', '-i', str(downloaded_file), 
+                            '-ss', start_time,  # Start at specified time
+                            '-t', '45',  # Trim to 45 seconds
+                            '-acodec', 'mp3', '-ab', '192k', 
+                            str(final_filename), '-y'
+                        ]
+                        
+                        subprocess.run(ffmpeg_cmd, check=True)
+                        downloaded_file.unlink()  # Remove temp file
+                        
+                        self.logger.info(f"Successfully downloaded and trimmed to 45s starting at {start_time}s: {final_filename}")
+                        return True
+                    else:
+                        self.logger.error(f"Downloaded file is not a valid audio format: {downloaded_file}")
+                        downloaded_file.unlink()  # Clean up
+                        return False
                 else:
                     self.logger.error(f"No file downloaded for jersey {jersey_number}")
                     return False
@@ -152,9 +180,9 @@ class SoundExtractor:
             self.logger.error(f"Error downloading audio for jersey {jersey_number}: {e}")
             return False
 
-    def process_entry(self, jersey_number: str, song: str) -> bool:
+    def process_entry(self, jersey_number: str, song: str, start_time: str = '0') -> bool:
         """Process a single entry (jersey number and song)."""
-        self.logger.info(f"Processing jersey {jersey_number}: {song}")
+        self.logger.info(f"Processing jersey {jersey_number}: {song} (start: {start_time}s)")
         
         # Check if file already exists
         output_file = self.output_dir / f"{jersey_number}.mp3"
@@ -169,13 +197,13 @@ class SoundExtractor:
         else:
             # Search for the song on YouTube
             self.logger.info(f"Searching YouTube for: {song}")
-            url = self.search_youtube(song)
+            url = self.search_youtube_simple(song)
             if not url:
                 self.logger.error(f"Could not find YouTube URL for: {song}")
                 return False
         
         # Download the audio
-        return self.download_audio(url, jersey_number)
+        return self.download_audio(url, jersey_number, start_time)
 
     def process_csv(self, csv_file: str):
         """Process all entries in the CSV file."""
@@ -189,8 +217,9 @@ class SoundExtractor:
             for entry in data:
                 jersey_number = str(entry['jersey_number']).strip()
                 song = str(entry['song']).strip()
+                start_time = str(entry['start_time']).strip()
                 
-                if self.process_entry(jersey_number, song):
+                if self.process_entry(jersey_number, song, start_time):
                     successful += 1
                 else:
                     failed += 1

@@ -24,7 +24,7 @@ See `example.csv`.
 ## Run
 
 ```bash
-python sound_extractor_minimal.py example.csv
+python sound_extractor.py example.csv
 ```
 
 ## Output
@@ -36,4 +36,4 @@ python sound_extractor_minimal.py example.csv
 
 - If `song` is a YouTube URL, it downloads from that URL.
 - If `song` is not a URL, it searches YouTube.
-- Audio is trimmed to a short clip (see `sound_extractor_minimal.py` for current settings).
+- Audio is trimmed to a short clip (see `sound_extractor.py` for current settings).
