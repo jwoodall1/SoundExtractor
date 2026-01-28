@@ -32,8 +32,8 @@ python sound_extractor_minimal.py example.csv
 - MP3s are written to `output/`
 - `output/` is ignored by git (see `.gitignore`)
 
-## GitHub Pages GUI
+## Notes
 
-This repo includes a static GUI (`index.html`) that lets you upload a CSV and shows which files exist.
-
-Note: GitHub Pages cannot run Python/ffmpeg/yt-dlp. If `output/` is ignored and not committed, the Pages site will not be able to play the generated MP3s.
+- If `song` is a YouTube URL, it downloads from that URL.
+- If `song` is not a URL, it searches YouTube.
+- Audio is trimmed to a short clip (see `sound_extractor_minimal.py` for current settings).
