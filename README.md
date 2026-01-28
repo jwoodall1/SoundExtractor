@@ -1,6 +1,6 @@
 # Sound Extractor
 
-Convert a CSV of jersey numbers + songs into MP3 clips saved under `output/`.
+Convert a CSV of names + songs into MP3 clips saved under `output/`.
 
 ## Install
 
@@ -13,13 +13,13 @@ FFmpeg is required.
 ## CSV format
 
 Required columns:
-- `jersey_number`
+- `jersey_number` (Can be any Name you want for the file)
 - `song`
 
 Optional:
 - `start_time` (seconds, default 0)
 
-See `example.csv`.
+See `example.csv`. format is `jersey_number`,`song`,`start_time`
 
 ## Run
 
@@ -33,7 +33,7 @@ python sound_extractor.py example.csv
 - `output/` is ignored by git (see `.gitignore`)
 
 ## Notes
-
+- Clean Songs are Prioritized
 - If `song` is a YouTube URL, it downloads from that URL.
-- If `song` is not a URL, it searches YouTube.
+- If `song` is not a URL (Just the Name of the Song), it searches YouTube.
 - Audio is trimmed to a short clip (see `sound_extractor.py` for current settings).
