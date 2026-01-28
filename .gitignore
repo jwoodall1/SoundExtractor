@@ -1,0 +1,15 @@
+# Ignore generated audio output
+output/
+
+# Logs
+sound_extractor.log
+
+# OS / editor noise
+.DS_Store
+.idea/
+.vscode/
+
+# Python caches
+__pycache__/
+*.pyc
+

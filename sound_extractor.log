@@ -135,3 +135,517 @@
 2025-09-18 12:54:59,381 - INFO - Processing jersey 12: Country (start: 0s)
 2025-09-18 12:54:59,382 - INFO - Searching YouTube for: Country
 2025-09-18 12:55:04,296 - INFO - Found clean YouTube URL for 'Country': https://www.youtube.com/watch?v=BYMqvahuFUQ
+2025-09-18 16:53:51,915 - INFO - Successfully loaded 70 entries from songs.csv
+2025-09-18 16:53:51,917 - INFO - Processing jersey 0: Upside Down - Jack Johnson (start: 23s)
+2025-09-18 16:53:51,917 - INFO - Searching YouTube for: Upside Down - Jack Johnson
+2025-09-18 16:53:57,662 - INFO - Found clean YouTube URL for 'Upside Down - Jack Johnson': https://www.youtube.com/watch?v=dqUdI4AIDF0
+2025-09-18 16:54:12,146 - INFO - Successfully downloaded and trimmed to 45s starting at 23s: output/0.mp3
+2025-09-18 16:54:12,146 - INFO - Processing jersey 1: https://youtu.be/c36LsIAs-Yc?si=vBsp3-RpPyNkeRwT (start: 44s)
+2025-09-18 16:54:12,147 - INFO - Processing YouTube URL: https://youtu.be/c36LsIAs-Yc?si=vBsp3-RpPyNkeRwT
+2025-09-18 16:54:26,175 - INFO - Successfully downloaded and trimmed to 45s starting at 44s: output/1.mp3
+2025-09-18 16:54:26,176 - INFO - Processing jersey 2: sold out dates- lil baby and gunna (start: 12s)
+2025-09-18 16:54:26,176 - INFO - Searching YouTube for: sold out dates- lil baby and gunna
+2025-09-18 16:54:30,859 - INFO - Found clean YouTube URL for 'sold out dates- lil baby and gunna': https://www.youtube.com/watch?v=awRuuvFHYnY
+2025-09-18 16:54:47,227 - INFO - Successfully downloaded and trimmed to 45s starting at 12s: output/2.mp3
+2025-09-18 16:54:47,228 - INFO - Processing jersey 3: I’m still standing - Elton John (start: 36s)
+2025-09-18 16:54:47,228 - INFO - Searching YouTube for: I’m still standing - Elton John
+2025-09-18 16:54:52,996 - INFO - Found clean YouTube URL for 'I’m still standing - Elton John': https://www.youtube.com/watch?v=ZHwVBirqD2s
+2025-09-18 16:55:07,757 - INFO - Successfully downloaded and trimmed to 45s starting at 36s: output/3.mp3
+2025-09-18 16:55:07,758 - INFO - Processing jersey 4: I was made for loving you - Kiss (start: 62s)
+2025-09-18 16:55:07,758 - INFO - Searching YouTube for: I was made for loving you - Kiss
+2025-09-18 16:55:11,779 - INFO - Found clean YouTube URL for 'I was made for loving you - Kiss': https://www.youtube.com/watch?v=lxdE1UlYWsg
+2025-09-18 16:55:27,792 - INFO - Successfully downloaded and trimmed to 45s starting at 62s: output/4.mp3
+2025-09-18 16:55:27,792 - INFO - Processing jersey 5: Chelsea Dagger (start: 29s)
+2025-09-18 16:55:27,793 - INFO - Searching YouTube for: Chelsea Dagger
+2025-09-18 16:55:32,296 - INFO - Found clean YouTube URL for 'Chelsea Dagger': https://www.youtube.com/watch?v=Ur_ib5BTtsI
+2025-09-18 16:55:46,943 - INFO - Successfully downloaded and trimmed to 45s starting at 29s: output/5.mp3
+2025-09-18 16:55:46,944 - INFO - Processing jersey 6: Mud on the Tires- Brad Paisley (start: 51s)
+2025-09-18 16:55:46,944 - INFO - Searching YouTube for: Mud on the Tires- Brad Paisley
+2025-09-18 16:55:52,073 - INFO - Found clean YouTube URL for 'Mud on the Tires- Brad Paisley': https://www.youtube.com/watch?v=X6nxHNrIwJA
+2025-09-18 16:56:07,844 - INFO - Successfully downloaded and trimmed to 45s starting at 51s: output/6.mp3
+2025-09-18 16:56:07,845 - INFO - Processing jersey 7: Chelsea Dagger (start: 167s)
+2025-09-18 16:56:07,845 - INFO - Searching YouTube for: Chelsea Dagger
+2025-09-18 16:56:11,931 - INFO - Found clean YouTube URL for 'Chelsea Dagger': https://www.youtube.com/watch?v=Ur_ib5BTtsI
+2025-09-18 16:56:27,592 - INFO - Successfully downloaded and trimmed to 45s starting at 167s: output/7.mp3
+2025-09-18 16:56:27,592 - INFO - Processing jersey 8: U can’t touch this - MC Hammer (start: 128s)
+2025-09-18 16:56:27,592 - INFO - Searching YouTube for: U can’t touch this - MC Hammer
+2025-09-18 16:56:37,839 - INFO - Found clean YouTube URL for 'U can’t touch this - MC Hammer': https://www.youtube.com/watch?v=OTptWfh9_00
+2025-09-18 16:56:54,290 - INFO - Successfully downloaded and trimmed to 45s starting at 128s: output/8.mp3
+2025-09-18 16:56:54,290 - INFO - Processing jersey 9: Texas-BigX (start: 22s)
+2025-09-18 16:56:54,291 - INFO - Searching YouTube for: Texas-BigX
+2025-09-18 16:57:04,906 - INFO - Found clean YouTube URL for 'Texas-BigX': https://www.youtube.com/watch?v=6pU03CPHhEM
+2025-09-18 16:57:21,422 - INFO - Successfully downloaded and trimmed to 45s starting at 22s: output/9.mp3
+2025-09-18 16:57:21,423 - INFO - Processing jersey 10: Theme from New York- frank sinatra (start: 94s)
+2025-09-18 16:57:21,423 - INFO - Searching YouTube for: Theme from New York- frank sinatra
+2025-09-18 16:57:29,874 - INFO - Found clean YouTube URL for 'Theme from New York- frank sinatra': https://www.youtube.com/watch?v=le1QF3uoQNg
+2025-09-18 16:57:45,745 - INFO - Successfully downloaded and trimmed to 45s starting at 94s: output/10.mp3
+2025-09-18 16:57:45,745 - INFO - Processing jersey 11: “Just Wanna Rock” by Lil Uzi Vert (start: 28s)
+2025-09-18 16:57:45,746 - INFO - Searching YouTube for: “Just Wanna Rock” by Lil Uzi Vert
+2025-09-18 16:57:51,209 - INFO - Found clean YouTube URL for '“Just Wanna Rock” by Lil Uzi Vert': https://www.youtube.com/watch?v=zFaLuknjxZ4
+2025-09-18 16:58:04,016 - INFO - Successfully downloaded and trimmed to 45s starting at 28s: output/11.mp3
+2025-09-18 16:58:04,017 - INFO - Processing jersey 12: I got better Morgan Wallen clean (start: 55s)
+2025-09-18 16:58:04,017 - INFO - Searching YouTube for: I got better Morgan Wallen clean
+2025-09-18 16:58:07,950 - INFO - Found clean YouTube URL for 'I got better Morgan Wallen clean': https://www.youtube.com/watch?v=w0DF3p7S7JA
+2025-09-18 16:58:22,271 - INFO - Successfully downloaded and trimmed to 45s starting at 55s: output/12.mp3
+2025-09-18 16:58:22,272 - INFO - Processing jersey 14: Levels-Avicii (start: 7s)
+2025-09-18 16:58:22,272 - INFO - Searching YouTube for: Levels-Avicii
+2025-09-18 16:58:26,770 - INFO - Found clean YouTube URL for 'Levels-Avicii': https://www.youtube.com/watch?v=_ovdm2yX4MA
+2025-09-18 16:58:40,979 - INFO - Successfully downloaded and trimmed to 45s starting at 7s: output/14.mp3
+2025-09-18 16:58:40,980 - INFO - Processing jersey 15: Hate being sober - keef (start: 30s)
+2025-09-18 16:58:40,980 - INFO - Searching YouTube for: Hate being sober - keef
+2025-09-18 16:58:45,736 - INFO - Found clean YouTube URL for 'Hate being sober - keef': https://www.youtube.com/watch?v=VtG440P9pKk
+2025-09-18 16:59:02,477 - INFO - Successfully downloaded and trimmed to 45s starting at 30s: output/15.mp3
+2025-09-18 16:59:02,477 - INFO - Processing jersey 16: Zeze - Travis Scott and young thug (start: 7s)
+2025-09-18 16:59:02,478 - INFO - Searching YouTube for: Zeze - Travis Scott and young thug
+2025-09-18 16:59:06,576 - INFO - Found clean YouTube URL for 'Zeze - Travis Scott and young thug': https://www.youtube.com/watch?v=z098rufVNrM
+2025-09-18 16:59:20,118 - INFO - Successfully downloaded and trimmed to 45s starting at 7s: output/16.mp3
+2025-09-18 16:59:20,119 - INFO - Processing jersey 17: Good time - Alan Jackson (start: 15s)
+2025-09-18 16:59:20,119 - INFO - Searching YouTube for: Good time - Alan Jackson
+2025-09-18 16:59:24,398 - INFO - Found clean YouTube URL for 'Good time - Alan Jackson': https://www.youtube.com/watch?v=ppn6YcWY_1k
+2025-09-18 16:59:38,867 - INFO - Successfully downloaded and trimmed to 45s starting at 15s: output/17.mp3
+2025-09-18 16:59:38,868 - INFO - Processing jersey 18: Would-Alice in Chains (start: 47s)
+2025-09-18 16:59:38,868 - INFO - Searching YouTube for: Would-Alice in Chains
+2025-09-18 16:59:43,655 - INFO - Found clean YouTube URL for 'Would-Alice in Chains': https://www.youtube.com/watch?v=Nco_kh8xJDs
+2025-09-18 16:59:57,882 - INFO - Successfully downloaded and trimmed to 45s starting at 47s: output/18.mp3
+2025-09-18 16:59:57,882 - INFO - Processing jersey 19: ss - Ken Carson (start: 0s)
+2025-09-18 16:59:57,882 - INFO - Searching YouTube for: ss - Ken Carson
+2025-09-18 17:00:01,779 - INFO - Found clean YouTube URL for 'ss - Ken Carson': https://www.youtube.com/watch?v=pz2B_hRvhCU
+2025-09-18 17:00:15,800 - INFO - Successfully downloaded and trimmed to 45s starting at 0s: output/19.mp3
+2025-09-18 17:00:15,801 - INFO - Processing jersey 20: Hells Bells - AC/DC (start: 85s)
+2025-09-18 17:00:15,801 - INFO - Searching YouTube for: Hells Bells - AC/DC
+2025-09-18 17:00:21,578 - INFO - Found clean YouTube URL for 'Hells Bells - AC/DC': https://www.youtube.com/watch?v=etAIpkdhU9Q
+2025-09-18 17:00:39,066 - INFO - Successfully downloaded and trimmed to 45s starting at 85s: output/20.mp3
+2025-09-18 17:00:39,067 - INFO - Processing jersey 21: Nail tech - jack Harlow (start: 11s)
+2025-09-18 17:00:39,068 - INFO - Searching YouTube for: Nail tech - jack Harlow
+2025-09-18 17:00:45,163 - INFO - Found clean YouTube URL for 'Nail tech - jack Harlow': https://www.youtube.com/watch?v=x__Qg6hPvYg
+2025-09-18 17:00:58,792 - INFO - Successfully downloaded and trimmed to 45s starting at 11s: output/21.mp3
+2025-09-18 17:00:58,793 - INFO - Processing jersey 22: 22 by Taylor swift (start: 39s)
+2025-09-18 17:00:58,793 - INFO - Searching YouTube for: 22 by Taylor swift
+2025-09-18 17:01:03,533 - INFO - Found clean YouTube URL for '22 by Taylor swift': https://www.youtube.com/watch?v=AgFeZr5ptV8
+2025-09-18 17:01:21,139 - INFO - Successfully downloaded and trimmed to 45s starting at 39s: output/22.mp3
+2025-09-18 17:01:21,140 - INFO - Processing jersey 23: Welcome to the Jungle - Guns N’ Roses (start: 30s)
+2025-09-18 17:01:21,140 - INFO - Searching YouTube for: Welcome to the Jungle - Guns N’ Roses
+2025-09-18 17:01:27,121 - INFO - Found clean YouTube URL for 'Welcome to the Jungle - Guns N’ Roses': https://www.youtube.com/watch?v=o1tj2zJ2Wvg
+2025-09-18 17:01:42,505 - INFO - Successfully downloaded and trimmed to 45s starting at 30s: output/23.mp3
+2025-09-18 17:01:42,506 - INFO - Processing jersey 24: What is love - Haddaway (start: 0s)
+2025-09-18 17:01:42,506 - INFO - Searching YouTube for: What is love - Haddaway
+2025-09-18 17:01:47,479 - INFO - Found clean YouTube URL for 'What is love - Haddaway': https://www.youtube.com/watch?v=HEXWRTEbj1I
+2025-09-18 17:02:02,918 - INFO - Successfully downloaded and trimmed to 45s starting at 0s: output/24.mp3
+2025-09-18 17:02:02,919 - INFO - Processing jersey 25: Callaita Bad Bunny (start: 34s)
+2025-09-18 17:02:02,920 - INFO - Searching YouTube for: Callaita Bad Bunny
+2025-09-18 17:02:06,949 - INFO - Found clean YouTube URL for 'Callaita Bad Bunny': https://www.youtube.com/watch?v=40vzJBQoxZw
+2025-09-18 17:02:21,137 - INFO - Successfully downloaded and trimmed to 45s starting at 34s: output/25.mp3
+2025-09-18 17:02:21,138 - INFO - Processing jersey 26: All of the lights-Kanye (start: 22s)
+2025-09-18 17:02:21,138 - INFO - Searching YouTube for: All of the lights-Kanye
+2025-09-18 17:02:25,177 - INFO - Found clean YouTube URL for 'All of the lights-Kanye': https://www.youtube.com/watch?v=1C70oSBmd74
+2025-09-18 17:02:40,041 - INFO - Successfully downloaded and trimmed to 45s starting at 22s: output/26.mp3
+2025-09-18 17:02:40,042 - INFO - Processing jersey 27: Gasolina-Daddy Yankee (start: 31s)
+2025-09-18 17:02:40,042 - INFO - Searching YouTube for: Gasolina-Daddy Yankee
+2025-09-18 17:02:44,043 - INFO - Found clean YouTube URL for 'Gasolina-Daddy Yankee': https://www.youtube.com/watch?v=GJP9ZTsgxJs
+2025-09-18 17:03:01,894 - INFO - Successfully downloaded and trimmed to 45s starting at 31s: output/27.mp3
+2025-09-18 17:03:01,895 - INFO - Processing jersey 28: Shinzō wo Sasageyo! (start: 2s)
+2025-09-18 17:03:01,895 - INFO - Searching YouTube for: Shinzō wo Sasageyo!
+2025-09-18 17:03:06,416 - INFO - Found clean YouTube URL for 'Shinzō wo Sasageyo!': https://www.youtube.com/watch?v=WAoPeG1LU1g
+2025-09-18 17:03:23,904 - INFO - Successfully downloaded and trimmed to 45s starting at 2s: output/28.mp3
+2025-09-18 17:03:23,905 - INFO - Processing jersey 29: https://youtu.be/00rnuvhfs_8?si=yJTj0QCjYtmoly3L (start: 0s)
+2025-09-18 17:03:23,905 - INFO - Processing YouTube URL: https://youtu.be/00rnuvhfs_8?si=yJTj0QCjYtmoly3L
+2025-09-18 17:03:37,175 - INFO - Successfully downloaded and trimmed to 45s starting at 0s: output/29.mp3
+2025-09-18 17:03:37,176 - INFO - Processing jersey 30: https://youtu.be/lao_9nmGSpY?si=x4qejcwn06HmLEGG (start: 7s)
+2025-09-18 17:03:37,176 - INFO - Processing YouTube URL: https://youtu.be/lao_9nmGSpY?si=x4qejcwn06HmLEGG
+2025-09-18 17:04:39,811 - INFO - Successfully downloaded and trimmed to 45s starting at 7s: output/30.mp3
+2025-09-18 17:04:39,812 - INFO - Processing jersey 32: Ain’t No Love in Oklahoma- Luke Combs (start: 58s)
+2025-09-18 17:04:39,812 - INFO - Searching YouTube for: Ain’t No Love in Oklahoma- Luke Combs
+2025-09-18 17:04:46,568 - INFO - Found clean YouTube URL for 'Ain’t No Love in Oklahoma- Luke Combs': https://www.youtube.com/watch?v=J6YlaeACE4E
+2025-09-18 17:05:04,616 - INFO - Successfully downloaded and trimmed to 45s starting at 58s: output/32.mp3
+2025-09-18 17:05:04,618 - INFO - Processing jersey 33: Theme From Jurassic Park-John Williams (start: 153s)
+2025-09-18 17:05:04,618 - INFO - Searching YouTube for: Theme From Jurassic Park-John Williams
+2025-09-18 17:05:09,431 - INFO - Found clean YouTube URL for 'Theme From Jurassic Park-John Williams': https://www.youtube.com/watch?v=D8zlUUrFK-M
+2025-09-18 17:05:26,888 - INFO - Successfully downloaded and trimmed to 45s starting at 153s: output/33.mp3
+2025-09-18 17:05:26,889 - INFO - Processing jersey 34: Golden - HUNTRx / K-pop demon hunters (start: 46s)
+2025-09-18 17:05:26,889 - INFO - Searching YouTube for: Golden - HUNTRx / K-pop demon hunters
+2025-09-18 17:05:32,658 - INFO - Found clean YouTube URL for 'Golden - HUNTRx / K-pop demon hunters': https://www.youtube.com/watch?v=yebNIHKAC4A
+2025-09-18 17:05:48,572 - INFO - Successfully downloaded and trimmed to 45s starting at 46s: output/34.mp3
+2025-09-18 17:05:48,573 - INFO - Processing jersey 35: Wake Waka-Shakira (start: 51s)
+2025-09-18 17:05:48,573 - INFO - Searching YouTube for: Wake Waka-Shakira
+2025-09-18 17:05:54,096 - INFO - Found clean YouTube URL for 'Wake Waka-Shakira': https://www.youtube.com/watch?v=czWcyZRAMtk
+2025-09-18 17:06:11,886 - INFO - Successfully downloaded and trimmed to 45s starting at 51s: output/35.mp3
+2025-09-18 17:06:11,887 - INFO - Processing jersey 36: Take it on the run-REO Speedwagon (start: 55s)
+2025-09-18 17:06:11,887 - INFO - Searching YouTube for: Take it on the run-REO Speedwagon
+2025-09-18 17:06:16,730 - INFO - Found clean YouTube URL for 'Take it on the run-REO Speedwagon': https://www.youtube.com/watch?v=GM7As_wx4iU
+2025-09-18 17:06:33,071 - INFO - Successfully downloaded and trimmed to 45s starting at 55s: output/36.mp3
+2025-09-18 17:06:33,072 - INFO - Processing jersey 37: Kickstart my heart - Motley Crue (start: 14s)
+2025-09-18 17:06:33,072 - INFO - Searching YouTube for: Kickstart my heart - Motley Crue
+2025-09-18 17:06:38,452 - INFO - Found clean YouTube URL for 'Kickstart my heart - Motley Crue': https://www.youtube.com/watch?v=kn4EyWFDjJM
+2025-09-18 17:07:01,386 - INFO - Successfully downloaded and trimmed to 45s starting at 14s: output/37.mp3
+2025-09-18 17:07:01,387 - INFO - Processing jersey 42: lush life - zara larsson (start: 47s)
+2025-09-18 17:07:01,387 - INFO - Searching YouTube for: lush life - zara larsson
+2025-09-18 17:07:06,608 - INFO - Found clean YouTube URL for 'lush life - zara larsson': https://www.youtube.com/watch?v=kKCqweud9VY
+2025-09-18 17:07:32,511 - INFO - Successfully downloaded and trimmed to 45s starting at 47s: output/42.mp3
+2025-09-18 17:07:32,512 - INFO - Processing jersey 44: https://www.youtube.com/watch?v=mJpNmYeooQE&ab_channel=HBO (start: 3s)
+2025-09-18 17:07:32,512 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=mJpNmYeooQE&ab_channel=HBO
+2025-09-18 17:07:47,096 - INFO - Successfully downloaded and trimmed to 45s starting at 3s: output/44.mp3
+2025-09-18 17:07:47,097 - INFO - Processing jersey 46: https://www.youtube.com/watch?v=uAE6Il6OTcs&list=RDuAE6Il6OTcs&start_radio=1 (start: 170s)
+2025-09-18 17:07:47,097 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=uAE6Il6OTcs&list=RDuAE6Il6OTcs&start_radio=1
+2025-09-18 17:29:33,734 - ERROR - Error downloading audio for jersey 46: [0;31mERROR:[0m unable to download video data: HTTP Error 403: Forbidden
+2025-09-18 17:29:33,817 - INFO - Processing jersey 47: Golden - HUNTRx / K-pop demon hunters (start: 46s)
+2025-09-18 17:29:33,818 - INFO - Searching YouTube for: Golden - HUNTRx / K-pop demon hunters
+2025-09-18 17:29:38,011 - INFO - Found clean YouTube URL for 'Golden - HUNTRx / K-pop demon hunters': https://www.youtube.com/watch?v=yebNIHKAC4A
+2025-09-18 17:29:51,311 - INFO - Successfully downloaded and trimmed to 45s starting at 46s: output/47.mp3
+2025-09-18 17:29:51,312 - INFO - Processing jersey 49: Miss the rage (start: 6s)
+2025-09-18 17:29:51,312 - INFO - Searching YouTube for: Miss the rage
+2025-09-18 17:29:55,863 - INFO - Found clean YouTube URL for 'Miss the rage': https://www.youtube.com/watch?v=Zwbs_aP5afU
+2025-09-18 17:30:10,486 - INFO - Successfully downloaded and trimmed to 45s starting at 6s: output/49.mp3
+2025-09-18 17:30:10,487 - INFO - Processing jersey 50: Prices- lil uzi vert (start: 27s)
+2025-09-18 17:30:10,487 - INFO - Searching YouTube for: Prices- lil uzi vert
+2025-09-18 17:30:14,465 - INFO - Found clean YouTube URL for 'Prices- lil uzi vert': https://www.youtube.com/watch?v=RYsfOqgjTG0
+2025-09-18 17:30:27,715 - INFO - Successfully downloaded and trimmed to 45s starting at 27s: output/50.mp3
+2025-09-18 17:30:27,716 - INFO - Processing jersey 51: In The End, Linkin Park (start: 51s)
+2025-09-18 17:30:27,716 - INFO - Searching YouTube for: In The End, Linkin Park
+2025-09-18 17:30:31,858 - INFO - Found clean YouTube URL for 'In The End, Linkin Park': https://www.youtube.com/watch?v=eVTXPUF4Oz4
+2025-09-18 17:30:44,646 - INFO - Successfully downloaded and trimmed to 45s starting at 51s: output/51.mp3
+2025-09-18 17:30:44,650 - INFO - Processing jersey 52: Holding out for a Hero (start: 51s)
+2025-09-18 17:30:44,650 - INFO - Searching YouTube for: Holding out for a Hero
+2025-09-18 17:30:48,641 - INFO - Found clean YouTube URL for 'Holding out for a Hero': https://www.youtube.com/watch?v=Hq5mVt-iozQ
+2025-09-18 17:31:03,351 - INFO - Successfully downloaded and trimmed to 45s starting at 51s: output/52.mp3
+2025-09-18 17:31:03,352 - INFO - Processing jersey 53: See you in court - Treaty Oak Revival. Or any Treaty Oak Revival (start: 124s)
+2025-09-18 17:31:03,353 - INFO - Searching YouTube for: See you in court - Treaty Oak Revival. Or any Treaty Oak Revival
+2025-09-18 17:31:06,908 - INFO - Found clean YouTube URL for 'See you in court - Treaty Oak Revival. Or any Treaty Oak Revival': https://www.youtube.com/watch?v=hcFw-vcjoSI
+2025-09-18 17:31:21,369 - INFO - Successfully downloaded and trimmed to 45s starting at 124s: output/53.mp3
+2025-09-18 17:31:21,370 - INFO - Processing jersey 55: On the river-Young Dolph (start: 0s)
+2025-09-18 17:31:21,370 - INFO - Searching YouTube for: On the river-Young Dolph
+2025-09-18 17:31:25,161 - INFO - Found clean YouTube URL for 'On the river-Young Dolph': https://www.youtube.com/watch?v=FTWkRJ0YnT4
+2025-09-18 17:31:41,609 - INFO - Successfully downloaded and trimmed to 45s starting at 0s: output/55.mp3
+2025-09-18 17:31:41,610 - INFO - Processing jersey 56: Nokia-Drake (start: 0s)
+2025-09-18 17:31:41,610 - INFO - Searching YouTube for: Nokia-Drake
+2025-09-18 17:31:45,783 - INFO - Found clean YouTube URL for 'Nokia-Drake': https://www.youtube.com/watch?v=-mmkv9fdEto
+2025-09-18 17:31:58,941 - INFO - Successfully downloaded and trimmed to 45s starting at 0s: output/56.mp3
+2025-09-18 17:31:58,942 - INFO - Processing jersey 58: All of the Lights -Kanye (start: 22s)
+2025-09-18 17:31:58,942 - INFO - Searching YouTube for: All of the Lights -Kanye
+2025-09-18 17:32:02,794 - INFO - Found clean YouTube URL for 'All of the Lights -Kanye': https://www.youtube.com/watch?v=Qaw3nNLGnuw
+2025-09-18 17:32:16,602 - INFO - Successfully downloaded and trimmed to 45s starting at 22s: output/58.mp3
+2025-09-18 17:32:16,603 - INFO - Processing jersey 61: First day out - Tee Grizzley (start: 87s)
+2025-09-18 17:32:16,603 - INFO - Searching YouTube for: First day out - Tee Grizzley
+2025-09-18 17:32:20,848 - INFO - Found clean YouTube URL for 'First day out - Tee Grizzley': https://www.youtube.com/watch?v=VCRpoXGcQqo
+2025-09-18 17:32:35,208 - INFO - Successfully downloaded and trimmed to 45s starting at 87s: output/61.mp3
+2025-09-18 17:32:35,209 - INFO - Processing jersey 62: Homecoming- Kanye (start: 22s)
+2025-09-18 17:32:35,209 - INFO - Searching YouTube for: Homecoming- Kanye
+2025-09-18 17:32:39,514 - INFO - Found clean YouTube URL for 'Homecoming- Kanye': https://www.youtube.com/watch?v=aU6jTwKfv7Y
+2025-09-18 17:32:53,186 - INFO - Successfully downloaded and trimmed to 45s starting at 22s: output/62.mp3
+2025-09-18 17:32:53,186 - INFO - Processing jersey 64: You choose (start: 5s)
+2025-09-18 17:32:53,186 - INFO - Searching YouTube for: You choose
+2025-09-18 17:32:57,162 - INFO - Found clean YouTube URL for 'You choose': https://www.youtube.com/watch?v=gPq7wzGEjqE
+2025-09-18 17:33:09,436 - INFO - Successfully downloaded and trimmed to 45s starting at 5s: output/64.mp3
+2025-09-18 17:33:09,437 - INFO - Processing jersey 67: Pocketful of sunshine by Natasha Bedingfield and Doot Doot (67) by Skrilla (start: 7s)
+2025-09-18 17:33:09,438 - INFO - Searching YouTube for: Pocketful of sunshine by Natasha Bedingfield and Doot Doot (67) by Skrilla
+2025-09-18 17:33:11,698 - ERROR - Could not find YouTube URL for: Pocketful of sunshine by Natasha Bedingfield and Doot Doot (67) by Skrilla
+2025-09-18 17:33:11,698 - INFO - Processing jersey 68: 25-Rod Wave (start: 17s)
+2025-09-18 17:33:11,698 - INFO - Searching YouTube for: 25-Rod Wave
+2025-09-18 17:33:15,766 - INFO - Found clean YouTube URL for '25-Rod Wave': https://www.youtube.com/watch?v=pX5f1nh2bgw
+2025-09-18 17:33:29,710 - INFO - Successfully downloaded and trimmed to 45s starting at 17s: output/68.mp3
+2025-09-18 17:33:29,711 - INFO - Processing jersey 69: Comin in hot- andy mineo (start: 50s)
+2025-09-18 17:33:29,711 - INFO - Searching YouTube for: Comin in hot- andy mineo
+2025-09-18 17:33:33,950 - INFO - Found clean YouTube URL for 'Comin in hot- andy mineo': https://www.youtube.com/watch?v=uLS-WE4K8q0
+2025-09-18 17:33:49,023 - INFO - Successfully downloaded and trimmed to 45s starting at 50s: output/69.mp3
+2025-09-18 17:33:49,024 - INFO - Processing jersey 70: https://www.youtube.com/watch?v=W8UosXiaSFU&list=RDW8UosXiaSFU&start_radio=1 (start: 22s)
+2025-09-18 17:33:49,024 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=W8UosXiaSFU&list=RDW8UosXiaSFU&start_radio=1
+2025-09-18 17:44:42,430 - ERROR - Error downloading audio for jersey 70: [0;31mERROR:[0m [youtube] X4r_eTtS4Lo: Video unavailable. This content isn't available, try again later. The current session has been rate-limited by YouTube for up to an hour. It is recommended to use `-t sleep` to add a delay between video requests to avoid exceeding the rate limit. For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#this-content-isnt-available-try-again-later
+2025-09-18 17:44:42,456 - INFO - Processing jersey 71: https://www.youtube.com/watch?v=o0ZpesMYF6A (start: 0s)
+2025-09-18 17:44:42,456 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=o0ZpesMYF6A
+2025-09-18 17:44:53,696 - INFO - Successfully downloaded and trimmed to 45s starting at 0s: output/71.mp3
+2025-09-18 17:44:53,697 - INFO - Processing jersey 73: The Man, Aloe Blacc (start: 10s)
+2025-09-18 17:44:53,697 - INFO - Searching YouTube for: The Man, Aloe Blacc
+2025-09-18 17:44:57,977 - INFO - Found clean YouTube URL for 'The Man, Aloe Blacc': https://www.youtube.com/watch?v=3YyfRWt4iCY
+2025-09-18 17:45:10,437 - INFO - Successfully downloaded and trimmed to 45s starting at 10s: output/73.mp3
+2025-09-18 17:45:10,438 - INFO - Processing jersey 76: https://www.youtube.com/watch?v=XdSFVHNs93Q&list=RDXdSFVHNs93Q&start_radio=1 (start: 0s)
+2025-09-18 17:45:10,438 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=XdSFVHNs93Q&list=RDXdSFVHNs93Q&start_radio=1
+2025-09-18 18:01:38,263 - ERROR - Error downloading audio for jersey 76: [0;31mERROR:[0m [youtube] AQqGH8di5Nw: Video unavailable. This content isn't available, try again later. The current session has been rate-limited by YouTube for up to an hour. It is recommended to use `-t sleep` to add a delay between video requests to avoid exceeding the rate limit. For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#this-content-isnt-available-try-again-later
+2025-09-18 18:01:38,490 - INFO - Processing jersey 77: The Distance — CAKE (start: 43s)
+2025-09-18 18:01:38,490 - INFO - Searching YouTube for: The Distance — CAKE
+2025-09-18 18:01:42,951 - INFO - Found clean YouTube URL for 'The Distance — CAKE': https://www.youtube.com/watch?v=F_HoMkkRHv8
+2025-09-18 18:01:56,891 - INFO - Successfully downloaded and trimmed to 45s starting at 43s: output/77.mp3
+2025-09-18 18:01:56,896 - INFO - Processing jersey 79: Intergalactic-Beastie Boys (start: 0s)
+2025-09-18 18:01:56,897 - INFO - Searching YouTube for: Intergalactic-Beastie Boys
+2025-09-18 18:02:01,539 - INFO - Found clean YouTube URL for 'Intergalactic-Beastie Boys': https://www.youtube.com/watch?v=qORYO0atB6g
+2025-09-18 18:02:18,015 - INFO - Successfully downloaded and trimmed to 45s starting at 0s: output/79.mp3
+2025-09-18 18:02:18,016 - INFO - Processing jersey 80: Diamonds-Rihanna (start: 123s)
+2025-09-18 18:02:18,016 - INFO - Searching YouTube for: Diamonds-Rihanna
+2025-09-18 18:02:22,534 - INFO - Found clean YouTube URL for 'Diamonds-Rihanna': https://www.youtube.com/watch?v=AwX2XtUOQJA
+2025-09-18 18:02:35,656 - INFO - Successfully downloaded and trimmed to 45s starting at 123s: output/80.mp3
+2025-09-18 18:02:35,657 - INFO - Processing jersey 83: Golden - HUNTRx / K-pop demon hunters (start: 46s)
+2025-09-18 18:02:35,657 - INFO - Searching YouTube for: Golden - HUNTRx / K-pop demon hunters
+2025-09-18 18:02:39,573 - INFO - Found clean YouTube URL for 'Golden - HUNTRx / K-pop demon hunters': https://www.youtube.com/watch?v=yebNIHKAC4A
+2025-09-18 18:02:52,878 - INFO - Successfully downloaded and trimmed to 45s starting at 46s: output/83.mp3
+2025-09-18 18:02:52,879 - INFO - Processing jersey 85: https://www.youtube.com/watch?v=59eZZvVT1Zs&list=RD59eZZvVT1Zs&start_radio=1 (start: 12s)
+2025-09-18 18:02:52,879 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=59eZZvVT1Zs&list=RD59eZZvVT1Zs&start_radio=1
+2025-09-18 18:09:10,379 - ERROR - Error downloading audio for jersey 85: [0;31mERROR:[0m [youtube] G6xgMW7U0aY: Unable to download API page: [Errno 8] nodename nor servname provided, or not known (caused by TransportError('[Errno 8] nodename nor servname provided, or not known'))
+2025-09-18 18:09:10,380 - INFO - Processing jersey 86: Golden - HUNTRx / K-pop demon hunters (start: 46s)
+2025-09-18 18:09:10,380 - INFO - Searching YouTube for: Golden - HUNTRx / K-pop demon hunters
+2025-09-18 18:09:10,628 - WARNING - Clean version search failed for 'Golden - HUNTRx / K-pop demon hunters': [0;31mERROR:[0m Unable to download API page: [Errno 8] nodename nor servname provided, or not known (caused by TransportError('[Errno 8] nodename nor servname provided, or not known'))
+2025-09-18 18:09:10,702 - WARNING - Regular search also failed for 'Golden - HUNTRx / K-pop demon hunters': [0;31mERROR:[0m Unable to download API page: [Errno 8] nodename nor servname provided, or not known (caused by TransportError('[Errno 8] nodename nor servname provided, or not known'))
+2025-09-18 18:09:10,702 - ERROR - Could not find YouTube URL for: Golden - HUNTRx / K-pop demon hunters
+2025-09-18 18:09:10,702 - INFO - Processing jersey 88: Take it to da house - trick daddy (start: 2s)
+2025-09-18 18:09:10,702 - INFO - Searching YouTube for: Take it to da house - trick daddy
+2025-09-18 18:09:10,810 - WARNING - Clean version search failed for 'Take it to da house - trick daddy': [0;31mERROR:[0m Unable to download API page: [Errno 8] nodename nor servname provided, or not known (caused by TransportError('[Errno 8] nodename nor servname provided, or not known'))
+2025-09-18 18:09:10,830 - WARNING - Regular search also failed for 'Take it to da house - trick daddy': [0;31mERROR:[0m Unable to download API page: [Errno 8] nodename nor servname provided, or not known (caused by TransportError('[Errno 8] nodename nor servname provided, or not known'))
+2025-09-18 18:09:10,830 - ERROR - Could not find YouTube URL for: Take it to da house - trick daddy
+2025-09-18 18:09:10,830 - INFO - Processing jersey 90: Heart Shaped Box by Nirvana (start: 48s)
+2025-09-18 18:09:10,831 - INFO - Searching YouTube for: Heart Shaped Box by Nirvana
+2025-09-18 18:09:10,927 - WARNING - Clean version search failed for 'Heart Shaped Box by Nirvana': [0;31mERROR:[0m Unable to download API page: [Errno 8] nodename nor servname provided, or not known (caused by TransportError('[Errno 8] nodename nor servname provided, or not known'))
+2025-09-18 18:09:10,945 - WARNING - Regular search also failed for 'Heart Shaped Box by Nirvana': [0;31mERROR:[0m Unable to download API page: [Errno 8] nodename nor servname provided, or not known (caused by TransportError('[Errno 8] nodename nor servname provided, or not known'))
+2025-09-18 18:09:10,945 - ERROR - Could not find YouTube URL for: Heart Shaped Box by Nirvana
+2025-09-18 18:09:10,945 - INFO - Processing jersey 93: Legendary (Clean Version)- Rio Da Yung OG (start: 9s)
+2025-09-18 18:09:10,945 - INFO - Searching YouTube for: Legendary (Clean Version)- Rio Da Yung OG
+2025-09-18 18:09:11,030 - WARNING - Clean version search failed for 'Legendary (Clean Version)- Rio Da Yung OG': [0;31mERROR:[0m Unable to download API page: [Errno 8] nodename nor servname provided, or not known (caused by TransportError('[Errno 8] nodename nor servname provided, or not known'))
+2025-09-18 18:09:11,046 - WARNING - Regular search also failed for 'Legendary (Clean Version)- Rio Da Yung OG': [0;31mERROR:[0m Unable to download API page: [Errno 8] nodename nor servname provided, or not known (caused by TransportError('[Errno 8] nodename nor servname provided, or not known'))
+2025-09-18 18:09:11,046 - ERROR - Could not find YouTube URL for: Legendary (Clean Version)- Rio Da Yung OG
+2025-09-18 18:09:11,046 - INFO - Processing jersey 95: Please Ask for Help - Telekinesis (start: 28s)
+2025-09-18 18:09:11,046 - INFO - Searching YouTube for: Please Ask for Help - Telekinesis
+2025-09-18 18:09:11,149 - WARNING - Clean version search failed for 'Please Ask for Help - Telekinesis': [0;31mERROR:[0m Unable to download API page: [Errno 8] nodename nor servname provided, or not known (caused by TransportError('[Errno 8] nodename nor servname provided, or not known'))
+2025-09-18 18:09:11,173 - WARNING - Regular search also failed for 'Please Ask for Help - Telekinesis': [0;31mERROR:[0m Unable to download API page: [Errno 8] nodename nor servname provided, or not known (caused by TransportError('[Errno 8] nodename nor servname provided, or not known'))
+2025-09-18 18:09:11,173 - ERROR - Could not find YouTube URL for: Please Ask for Help - Telekinesis
+2025-09-18 18:09:11,173 - INFO - Processing jersey 97: https://www.youtube.com/watch?v=1AcVBOP5dVY&list=RD1AcVBOP5dVY&start_radio=1 (start: 49s)
+2025-09-18 18:09:11,173 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=1AcVBOP5dVY&list=RD1AcVBOP5dVY&start_radio=1
+2025-09-18 18:09:11,260 - ERROR - Error downloading audio for jersey 97: [0;31mERROR:[0m [youtube:tab] RD1AcVBOP5dVY: Unable to download API page: [Errno 8] nodename nor servname provided, or not known (caused by TransportError('[Errno 8] nodename nor servname provided, or not known'))
+2025-09-18 18:09:11,260 - INFO - Processing jersey 99: A Country Boy Can Survive - Hank Williams Jr (start: 86s)
+2025-09-18 18:09:11,261 - INFO - Searching YouTube for: A Country Boy Can Survive - Hank Williams Jr
+2025-09-18 18:09:11,335 - WARNING - Clean version search failed for 'A Country Boy Can Survive - Hank Williams Jr': [0;31mERROR:[0m Unable to download API page: [Errno 8] nodename nor servname provided, or not known (caused by TransportError('[Errno 8] nodename nor servname provided, or not known'))
+2025-09-18 18:09:11,346 - WARNING - Regular search also failed for 'A Country Boy Can Survive - Hank Williams Jr': [0;31mERROR:[0m Unable to download API page: [Errno 8] nodename nor servname provided, or not known (caused by TransportError('[Errno 8] nodename nor servname provided, or not known'))
+2025-09-18 18:09:11,346 - ERROR - Could not find YouTube URL for: A Country Boy Can Survive - Hank Williams Jr
+2025-09-18 18:09:11,346 - INFO - Processing complete! Successful: 58, Failed: 12
+2025-09-18 20:05:18,680 - INFO - Successfully loaded 70 entries from songs.csv
+2025-09-18 20:05:18,681 - INFO - Processing jersey 0: Upside Down - Jack Johnson (start: 23s)
+2025-09-18 20:05:18,681 - INFO - File already exists for jersey 0, skipping
+2025-09-18 20:05:18,681 - INFO - Processing jersey 1: https://youtu.be/c36LsIAs-Yc?si=vBsp3-RpPyNkeRwT (start: 44s)
+2025-09-18 20:05:18,681 - INFO - File already exists for jersey 1, skipping
+2025-09-18 20:05:18,681 - INFO - Processing jersey 2: sold out dates- lil baby and gunna (start: 12s)
+2025-09-18 20:05:18,681 - INFO - File already exists for jersey 2, skipping
+2025-09-18 20:05:18,681 - INFO - Processing jersey 3: I’m still standing - Elton John (start: 36s)
+2025-09-18 20:05:18,681 - INFO - File already exists for jersey 3, skipping
+2025-09-18 20:05:18,681 - INFO - Processing jersey 4: I was made for loving you - Kiss (start: 62s)
+2025-09-18 20:05:18,681 - INFO - File already exists for jersey 4, skipping
+2025-09-18 20:05:18,681 - INFO - Processing jersey 5: Chelsea Dagger (start: 29s)
+2025-09-18 20:05:18,681 - INFO - File already exists for jersey 5, skipping
+2025-09-18 20:05:18,681 - INFO - Processing jersey 6: Mud on the Tires- Brad Paisley (start: 51s)
+2025-09-18 20:05:18,681 - INFO - File already exists for jersey 6, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 7: Chelsea Dagger (start: 167s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 7, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 8: U can’t touch this - MC Hammer (start: 128s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 8, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 9: Texas-BigX (start: 22s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 9, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 10: Theme from New York- frank sinatra (start: 94s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 10, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 11: “Just Wanna Rock” by Lil Uzi Vert (start: 28s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 11, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 12: I got better Morgan Wallen clean (start: 55s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 12, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 14: Levels-Avicii (start: 7s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 14, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 15: Hate being sober - keef (start: 30s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 15, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 16: Zeze - Travis Scott and young thug (start: 7s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 16, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 17: Good time - Alan Jackson (start: 15s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 17, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 18: Would-Alice in Chains (start: 47s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 18, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 19: ss - Ken Carson (start: 0s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 19, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 20: Hells Bells - AC/DC (start: 85s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 20, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 21: Nail tech - jack Harlow (start: 11s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 21, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 22: 22 by Taylor swift (start: 39s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 22, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 23: Welcome to the Jungle - Guns N’ Roses (start: 30s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 23, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 24: What is love - Haddaway (start: 0s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 24, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 25: Callaita Bad Bunny (start: 34s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 25, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 26: All of the lights-Kanye (start: 22s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 26, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 27: Gasolina-Daddy Yankee (start: 31s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 27, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 28: Shinzō wo Sasageyo! (start: 2s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 28, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 29: https://youtu.be/00rnuvhfs_8?si=yJTj0QCjYtmoly3L (start: 0s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 29, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 30: https://youtu.be/lao_9nmGSpY?si=x4qejcwn06HmLEGG (start: 7s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 30, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 32: Ain’t No Love in Oklahoma- Luke Combs (start: 58s)
+2025-09-18 20:05:18,682 - INFO - File already exists for jersey 32, skipping
+2025-09-18 20:05:18,682 - INFO - Processing jersey 33: Theme From Jurassic Park-John Williams (start: 153s)
+2025-09-18 20:05:18,683 - INFO - File already exists for jersey 33, skipping
+2025-09-18 20:05:18,683 - INFO - Processing jersey 34: Golden - HUNTRx / K-pop demon hunters (start: 46s)
+2025-09-18 20:05:18,683 - INFO - File already exists for jersey 34, skipping
+2025-09-18 20:05:18,683 - INFO - Processing jersey 35: Wake Waka-Shakira (start: 51s)
+2025-09-18 20:05:18,683 - INFO - File already exists for jersey 35, skipping
+2025-09-18 20:05:18,683 - INFO - Processing jersey 36: Take it on the run-REO Speedwagon (start: 55s)
+2025-09-18 20:05:18,683 - INFO - File already exists for jersey 36, skipping
+2025-09-18 20:05:18,683 - INFO - Processing jersey 37: Kickstart my heart - Motley Crue (start: 14s)
+2025-09-18 20:05:18,683 - INFO - File already exists for jersey 37, skipping
+2025-09-18 20:05:18,683 - INFO - Processing jersey 42: lush life - zara larsson (start: 47s)
+2025-09-18 20:05:18,683 - INFO - File already exists for jersey 42, skipping
+2025-09-18 20:05:18,683 - INFO - Processing jersey 44: https://www.youtube.com/watch?v=mJpNmYeooQE&ab_channel=HBO (start: 3s)
+2025-09-18 20:05:18,683 - INFO - File already exists for jersey 44, skipping
+2025-09-18 20:05:18,683 - INFO - Processing jersey 46: https://www.youtube.com/watch?v=uAE6Il6OTcs&list=RDuAE6Il6OTcs&start_radio=1 (start: 170s)
+2025-09-18 20:05:18,683 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=uAE6Il6OTcs&list=RDuAE6Il6OTcs&start_radio=1
+2025-09-18 20:09:11,694 - INFO - Successfully loaded 9 entries from songs.csv
+2025-09-18 20:09:11,695 - INFO - Processing jersey 46: https://www.youtube.com/watch?v=o8ogxQNJF_U (start: 170s)
+2025-09-18 20:09:11,695 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=o8ogxQNJF_U
+2025-09-18 20:09:26,431 - INFO - Successfully downloaded and trimmed to 45s starting at 170s: output/46.mp3
+2025-09-18 20:09:26,432 - INFO - Processing jersey 85: https://www.youtube.com/watch?v=59eZZvVT1Zs&list=RD59eZZvVT1Zs (start: 12s)
+2025-09-18 20:09:26,432 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=59eZZvVT1Zs&list=RD59eZZvVT1Zs
+2025-09-18 20:11:12,854 - INFO - Successfully loaded 8 entries from songs.csv
+2025-09-18 20:11:12,855 - INFO - Processing jersey 85: https://www.youtube.com/watch?v=aaoITgNPM2o&list=RDaaoITgNPM2o&start_radio=1 (start: 12s)
+2025-09-18 20:11:12,856 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=aaoITgNPM2o&list=RDaaoITgNPM2o&start_radio=1
+2025-09-18 20:28:18,319 - INFO - Successfully loaded 7 entries from songs.csv
+2025-09-18 20:28:18,320 - INFO - Processing jersey 86: Golden - HUNTRx / K-pop demon hunters (start: 46s)
+2025-09-18 20:28:18,320 - INFO - Searching YouTube for: Golden - HUNTRx / K-pop demon hunters
+2025-09-18 20:28:22,737 - INFO - Found clean YouTube URL for 'Golden - HUNTRx / K-pop demon hunters': https://www.youtube.com/watch?v=yebNIHKAC4A
+2025-09-18 20:28:36,369 - INFO - Successfully downloaded and trimmed to 45s starting at 46s: output/86.mp3
+2025-09-18 20:28:36,370 - INFO - Processing jersey 88: Take it to da house - trick daddy (start: 2s)
+2025-09-18 20:28:36,370 - INFO - Searching YouTube for: Take it to da house - trick daddy
+2025-09-18 20:28:39,875 - INFO - Found clean YouTube URL for 'Take it to da house - trick daddy': https://www.youtube.com/watch?v=ph4DOxSybfo
+2025-09-18 20:28:54,094 - INFO - Successfully downloaded and trimmed to 45s starting at 2s: output/88.mp3
+2025-09-18 20:28:54,095 - INFO - Processing jersey 90: Heart Shaped Box by Nirvana (start: 48s)
+2025-09-18 20:28:54,095 - INFO - Searching YouTube for: Heart Shaped Box by Nirvana
+2025-09-18 20:28:58,052 - INFO - Found clean YouTube URL for 'Heart Shaped Box by Nirvana': https://www.youtube.com/watch?v=hlpzdV_ai38
+2025-09-18 20:29:12,695 - INFO - Successfully downloaded and trimmed to 45s starting at 48s: output/90.mp3
+2025-09-18 20:29:12,696 - INFO - Processing jersey 93: Legendary (Clean Version)- Rio Da Yung OG (start: 9s)
+2025-09-18 20:29:12,696 - INFO - Searching YouTube for: Legendary (Clean Version)- Rio Da Yung OG
+2025-09-18 20:29:16,268 - INFO - Found clean YouTube URL for 'Legendary (Clean Version)- Rio Da Yung OG': https://www.youtube.com/watch?v=B5xivcgzPC0
+2025-09-18 20:29:28,577 - INFO - Successfully downloaded and trimmed to 45s starting at 9s: output/93.mp3
+2025-09-18 20:29:28,579 - INFO - Processing jersey 95: Please Ask for Help - Telekinesis (start: 28s)
+2025-09-18 20:29:28,579 - INFO - Searching YouTube for: Please Ask for Help - Telekinesis
+2025-09-18 20:29:32,387 - INFO - Found clean YouTube URL for 'Please Ask for Help - Telekinesis': https://www.youtube.com/watch?v=MCaQEMcSaQE
+2025-09-18 20:29:45,378 - INFO - Successfully downloaded and trimmed to 45s starting at 28s: output/95.mp3
+2025-09-18 20:29:45,379 - INFO - Processing jersey 97: https://www.youtube.com/watch?v=1AcVBOP5dVY&list=RD1AcVBOP5dVY&start_radio=1 (start: 49s)
+2025-09-18 20:29:45,379 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=1AcVBOP5dVY&list=RD1AcVBOP5dVY&start_radio=1
+2025-09-18 20:33:53,279 - INFO - Successfully loaded 3 entries from songs.csv
+2025-09-18 20:33:53,280 - INFO - Processing jersey 85: Philly-PlayboiCarti (start: 12s)
+2025-09-18 20:33:53,281 - INFO - Searching YouTube for: Philly-PlayboiCarti
+2025-09-18 20:33:58,026 - INFO - Found clean YouTube URL for 'Philly-PlayboiCarti': https://www.youtube.com/watch?v=59eZZvVT1Zs
+2025-09-18 20:34:11,889 - INFO - Successfully downloaded and trimmed to 45s starting at 12s: output/85.mp3
+2025-09-18 20:34:11,890 - INFO - Processing jersey 97: Soak City (start: 49s)
+2025-09-18 20:34:11,890 - INFO - Searching YouTube for: Soak City
+2025-09-18 20:34:15,664 - INFO - Found clean YouTube URL for 'Soak City': https://www.youtube.com/watch?v=1AcVBOP5dVY
+2025-09-18 20:34:29,288 - INFO - Successfully downloaded and trimmed to 45s starting at 49s: output/97.mp3
+2025-09-18 20:34:29,289 - INFO - Processing jersey 99: A Country Boy Can Survive - Hank Williams Jr (start: 86s)
+2025-09-18 20:34:29,289 - INFO - Searching YouTube for: A Country Boy Can Survive - Hank Williams Jr
+2025-09-18 20:34:33,784 - INFO - Found clean YouTube URL for 'A Country Boy Can Survive - Hank Williams Jr': https://www.youtube.com/watch?v=3cQNkIrg-Tk
+2025-09-18 20:34:48,376 - INFO - Successfully downloaded and trimmed to 45s starting at 86s: output/99.mp3
+2025-09-18 20:34:48,377 - INFO - Processing complete! Successful: 3, Failed: 0
+2025-09-18 20:53:18,268 - ERROR - Error reading CSV file: 'NoneType' object has no attribute 'strip'
+2025-09-18 20:53:18,271 - ERROR - Error processing CSV: 'NoneType' object has no attribute 'strip'
+2025-09-18 20:53:29,660 - INFO - Successfully loaded 2 entries from songs.csv
+2025-09-18 20:53:29,660 - INFO - Processing jersey 47: We bring the boom - AJ and Big Justice (start: 0s)
+2025-09-18 20:53:29,660 - INFO - Searching YouTube for: We bring the boom - AJ and Big Justice
+2025-09-18 20:53:33,935 - INFO - Found clean YouTube URL for 'We bring the boom - AJ and Big Justice': https://www.youtube.com/watch?v=wQy0X_O5qK4
+2025-09-18 20:53:47,034 - INFO - Successfully downloaded and trimmed to 45s starting at 0s: output/47.mp3
+2025-09-18 20:53:47,035 - INFO - Processing jersey 55: Faneto - Cheif Keef (start: 25s)
+2025-09-18 20:53:47,035 - INFO - File already exists for jersey 55, skipping
+2025-09-18 20:53:47,035 - INFO - Processing complete! Successful: 2, Failed: 0
+2025-09-18 21:18:11,553 - INFO - Successfully loaded 2 entries from songs.csv
+2025-09-18 21:18:11,554 - INFO - Processing jersey 47: We bring the boom - AJ and Big Justice (start: 0s)
+2025-09-18 21:18:11,554 - INFO - File already exists for jersey 47, skipping
+2025-09-18 21:18:11,554 - INFO - Processing jersey 55: Faneto - Cheif Keef (start: 25s)
+2025-09-18 21:18:11,554 - INFO - File already exists for jersey 55, skipping
+2025-09-18 21:18:11,554 - INFO - Processing complete! Successful: 2, Failed: 0
+2025-09-18 21:18:24,084 - INFO - Successfully loaded 1 entries from songs.csv
+2025-09-18 21:18:24,087 - INFO - Processing jersey 91: Clairo - 4Ever (start: 10s)
+2025-09-18 21:18:24,087 - INFO - Searching YouTube for: Clairo - 4Ever
+2025-09-18 21:18:28,263 - INFO - Found clean YouTube URL for 'Clairo - 4Ever': https://www.youtube.com/watch?v=1NAq6TmpPcE
+2025-09-18 21:18:40,964 - INFO - Successfully downloaded and trimmed to 45s starting at 10s: output/91.mp3
+2025-09-18 21:18:40,965 - INFO - Processing complete! Successful: 1, Failed: 0
+2025-09-19 20:47:51,613 - INFO - Successfully loaded 2 entries from songs.csv
+2025-09-19 20:47:51,614 - INFO - Processing jersey 67: https://www.youtube.com/watch?v=dGIEvM_PM-8 (start: 5s)
+2025-09-19 20:47:51,614 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=dGIEvM_PM-8
+2025-09-19 20:48:02,881 - INFO - Successfully downloaded and trimmed to 45s starting at 5s: output/67.mp3
+2025-09-19 20:48:02,882 - INFO - Processing jersey Jet2Holiday: https://www.youtube.com/watch?v=LpmOclM2DYw (start: 0s)
+2025-09-19 20:48:02,882 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=LpmOclM2DYw
+2025-09-19 20:48:13,306 - INFO - Successfully downloaded and trimmed to 45s starting at 0s: output/Jet2Holiday.mp3
+2025-09-19 20:48:13,307 - INFO - Processing complete! Successful: 2, Failed: 0
+2025-09-19 21:07:02,943 - INFO - Successfully loaded 2 entries from songs.csv
+2025-09-19 21:07:02,946 - INFO - Processing jersey mario: https://www.youtube.com/watch?v=dH3O5_0VFlA (start: 0s)
+2025-09-19 21:07:02,946 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=dH3O5_0VFlA
+2025-09-19 21:07:13,497 - INFO - Successfully downloaded and trimmed to 45s starting at 0s: output/mario.mp3
+2025-09-19 21:07:13,498 - INFO - Processing jersey star_power: https://www.youtube.com/watch?v=pAvGxLjogRA&list=RDpAvGxLjogRA&start_radio=1 (start: 0s)
+2025-09-19 21:07:13,498 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=pAvGxLjogRA&list=RDpAvGxLjogRA&start_radio=1
+2025-09-19 21:27:40,055 - INFO - Successfully loaded 3 entries from songs.csv
+2025-09-19 21:27:40,056 - INFO - Processing jersey mario: https://www.youtube.com/watch?v=dH3O5_0VFlA (start: 0s)
+2025-09-19 21:27:40,056 - INFO - File already exists for jersey mario, skipping
+2025-09-19 21:27:40,056 - INFO - Processing jersey bangbang: https://www.youtube.com/watch?v=PnJqAT8obbo (start: 0s)
+2025-09-19 21:27:40,056 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=PnJqAT8obbo
+2025-09-19 21:27:50,792 - INFO - Successfully downloaded and trimmed to 45s starting at 0s: output/bangbang.mp3
+2025-09-19 21:27:50,793 - INFO - Processing jersey valentine: https://www.youtube.com/watch?v=2VobiPkMJSY (start: 6s)
+2025-09-19 21:27:50,794 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=2VobiPkMJSY
+2025-09-19 21:28:01,589 - INFO - Successfully downloaded and trimmed to 45s starting at 6s: output/valentine.mp3
+2025-09-19 21:28:01,590 - INFO - Processing complete! Successful: 3, Failed: 0
+2025-09-19 21:29:14,043 - INFO - Successfully loaded 1 entries from songs.csv
+2025-09-19 21:29:14,047 - INFO - Processing jersey playedthese: https://www.youtube.com/watch?v=asthkXjWWQ0 (start: 0s)
+2025-09-19 21:29:14,047 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=asthkXjWWQ0
+2025-09-19 21:29:23,898 - INFO - Successfully downloaded and trimmed to 45s starting at 0s: output/playedthese.mp3
+2025-09-19 21:29:23,899 - INFO - Processing complete! Successful: 1, Failed: 0
+2025-09-19 21:33:53,386 - INFO - Successfully loaded 1 entries from songs.csv
+2025-09-19 21:33:53,388 - INFO - Processing jersey idfwy: i dont fuck with you instrumental (start: 0s)
+2025-09-19 21:33:53,388 - INFO - Searching YouTube for: i dont fuck with you instrumental
+2025-09-19 21:33:57,121 - INFO - Found clean YouTube URL for 'i dont fuck with you instrumental': https://www.youtube.com/watch?v=KrwRoOwQ-TM
+2025-09-19 21:34:12,124 - INFO - Successfully downloaded and trimmed to 45s starting at 0s: output/idfwy.mp3
+2025-09-19 21:34:12,124 - INFO - Processing complete! Successful: 1, Failed: 0
+2025-09-19 22:10:32,308 - INFO - Successfully loaded 1 entries from songs.csv
+2025-09-19 22:10:32,309 - INFO - Processing jersey offense: pumpupthejam (start: 11s)
+2025-09-19 22:10:32,309 - INFO - Searching YouTube for: pumpupthejam
+2025-09-19 22:10:36,951 - INFO - Found clean YouTube URL for 'pumpupthejam': https://www.youtube.com/watch?v=9EcjWd-O4jI
+2025-09-19 22:10:51,535 - INFO - Successfully downloaded and trimmed to 45s starting at 11s: output/offense.mp3
+2025-09-19 22:10:51,536 - INFO - Processing complete! Successful: 1, Failed: 0
+2025-09-19 22:12:04,253 - INFO - Successfully loaded 1 entries from songs.csv
+2025-09-19 22:12:04,254 - INFO - Processing jersey offense: pumpupthejam (start: 11s)
+2025-09-19 22:12:04,254 - INFO - File already exists for jersey offense, skipping
+2025-09-19 22:12:04,254 - INFO - Processing complete! Successful: 1, Failed: 0
+2025-09-19 22:12:17,502 - INFO - Successfully loaded 1 entries from songs.csv
+2025-09-19 22:12:17,502 - INFO - Processing jersey sendy: https://www.youtube.com/shorts/b_Eeo47cI0U (start: 0s)
+2025-09-19 22:12:17,503 - INFO - Searching YouTube for: https://www.youtube.com/shorts/b_Eeo47cI0U
+2025-09-19 22:12:19,956 - ERROR - Could not find YouTube URL for: https://www.youtube.com/shorts/b_Eeo47cI0U
+2025-09-19 22:12:19,957 - INFO - Processing complete! Successful: 0, Failed: 1
+2025-09-25 16:23:16,304 - INFO - Successfully loaded 3 entries from songs.csv
+2025-09-25 16:23:16,304 - INFO - Processing jersey oof: https://www.youtube.com/watch?v=3w-2gUSus34 (start: 0s)
+2025-09-25 16:23:16,304 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=3w-2gUSus34
+2025-09-25 16:23:19,701 - ERROR - Error downloading audio for jersey oof: [0;31mERROR:[0m [youtube] 3w-2gUSus34: Requested format is not available. Use --list-formats for a list of available formats
+2025-09-25 16:23:19,701 - INFO - Processing jersey Offense: https://www.youtube.com/watch?v=HivCAmjDS88 (start: 0s)
+2025-09-25 16:23:19,701 - INFO - File already exists for jersey Offense, skipping
+2025-09-25 16:23:19,701 - INFO - Processing jersey Gopher: https://www.youtube.com/watch?v=y8Kyi0WNg40 (start: 0s)
+2025-09-25 16:23:19,701 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=y8Kyi0WNg40
+2025-09-25 16:23:22,548 - ERROR - Error downloading audio for jersey Gopher: [0;31mERROR:[0m [youtube] y8Kyi0WNg40: Requested format is not available. Use --list-formats for a list of available formats
+2025-09-25 16:23:22,548 - INFO - Processing complete! Successful: 1, Failed: 2
+2025-09-25 16:23:42,227 - INFO - Successfully loaded 3 entries from songs.csv
+2025-09-25 16:23:42,229 - INFO - Processing jersey oof: https://www.youtube.com/watch?v=3w-2gUSus34 (start: 0s)
+2025-09-25 16:23:42,229 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=3w-2gUSus34
+2025-09-25 16:23:45,756 - ERROR - Error downloading audio for jersey oof: [0;31mERROR:[0m [youtube] 3w-2gUSus34: Requested format is not available. Use --list-formats for a list of available formats
+2025-09-25 16:23:45,756 - INFO - Processing jersey Offense: https://www.youtube.com/watch?v=HivCAmjDS88 (start: 0s)
+2025-09-25 16:23:45,756 - INFO - File already exists for jersey Offense, skipping
+2025-09-25 16:23:45,756 - INFO - Processing jersey Gopher: https://www.youtube.com/watch?v=y8Kyi0WNg40 (start: 0s)
+2025-09-25 16:23:45,756 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=y8Kyi0WNg40
+2025-09-25 16:23:48,819 - ERROR - Error downloading audio for jersey Gopher: [0;31mERROR:[0m [youtube] y8Kyi0WNg40: Requested format is not available. Use --list-formats for a list of available formats
+2025-09-25 16:23:48,819 - INFO - Processing complete! Successful: 1, Failed: 2
+2025-09-25 16:24:10,255 - INFO - Successfully loaded 3 entries from songs.csv
+2025-09-25 16:24:10,255 - INFO - Processing jersey oof: https://www.youtube.com/watch?v=3w-2gUSus34 (start: 0s)
+2025-09-25 16:24:10,255 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=3w-2gUSus34
+2025-09-25 16:24:13,669 - ERROR - Error downloading audio for jersey oof: [0;31mERROR:[0m [youtube] 3w-2gUSus34: Requested format is not available. Use --list-formats for a list of available formats
+2025-09-25 16:24:13,669 - INFO - Processing jersey Offense: https://www.youtube.com/watch?v=HivCAmjDS88 (start: 0s)
+2025-09-25 16:24:13,669 - INFO - File already exists for jersey Offense, skipping
+2025-09-25 16:24:13,669 - INFO - Processing jersey Gopher: https://www.youtube.com/watch?v=y8Kyi0WNg40 (start: 0s)
+2025-09-25 16:24:13,669 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=y8Kyi0WNg40
+2025-09-25 16:24:16,295 - ERROR - Error downloading audio for jersey Gopher: [0;31mERROR:[0m [youtube] y8Kyi0WNg40: Requested format is not available. Use --list-formats for a list of available formats
+2025-09-25 16:24:16,295 - INFO - Processing complete! Successful: 1, Failed: 2
+2025-09-25 16:25:51,221 - INFO - Successfully loaded 3 entries from songs.csv
+2025-09-25 16:25:51,224 - INFO - Processing jersey oof: https://www.youtube.com/watch?v=3w-2gUSus34 (start: 0s)
+2025-09-25 16:25:51,224 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=3w-2gUSus34
+2025-09-25 16:25:55,087 - ERROR - Error downloading audio for jersey oof: [0;31mERROR:[0m [youtube] 3w-2gUSus34: Requested format is not available. Use --list-formats for a list of available formats
+2025-09-25 16:25:55,087 - INFO - Processing jersey Offense: https://www.youtube.com/watch?v=HivCAmjDS88 (start: 0s)
+2025-09-25 16:25:55,088 - INFO - File already exists for jersey Offense, skipping
+2025-09-25 16:25:55,088 - INFO - Processing jersey Gopher: https://www.youtube.com/watch?v=y8Kyi0WNg40 (start: 0s)
+2025-09-25 16:25:55,088 - INFO - Processing YouTube URL: https://www.youtube.com/watch?v=y8Kyi0WNg40
+2025-09-25 16:25:58,673 - ERROR - Error downloading audio for jersey Gopher: [0;31mERROR:[0m [youtube] y8Kyi0WNg40: Requested format is not available. Use --list-formats for a list of available formats
+2025-09-25 16:25:58,674 - INFO - Processing complete! Successful: 1, Failed: 2

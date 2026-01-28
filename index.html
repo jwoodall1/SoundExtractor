@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sound Extractor — CSV Viewer</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="container">
+      <div class="header">
+        <div>
+          <h1>Sound Extractor</h1>
+          <p class="sub">
+            Upload a CSV and play/download the matching files from <code>output/</code>.
+          </p>
+        </div>
+        <div class="header-actions">
+          <a class="btn secondary" href="./manifest.json" target="_blank" rel="noreferrer"
+            >manifest.json</a
+          >
+          <a class="btn secondary" href="https://github.com" target="_blank" rel="noreferrer"
+            >GitHub</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h2>CSV input</h2>
+        <p class="muted">
+          Expected headers: <code>jersey_number</code>, <code>song</code>, optional
+          <code>start_time</code>.
+        </p>
+
+        <div class="row">
+          <label class="file">
+            <input id="csvFile" type="file" accept=".csv,text/csv" />
+            <span class="file-ui">
+              <span class="file-title">Choose CSV</span>
+              <span id="csvName" class="file-name">No file selected</span>
+            </span>
+          </label>
+          <button id="loadExample" class="btn" type="button">Load example.csv</button>
+        </div>
+
+        <div class="row">
+          <input
+            id="basePath"
+            class="input"
+            type="text"
+            value="./output/"
+            aria-label="Base path to output folder"
+          />
+          <button id="renderBtn" class="btn primary" type="button">Render</button>
+        </div>
+      </section>
+
+      <section class="grid">
+        <div class="card">
+          <div class="card-header">
+            <h2>Matches from CSV</h2>
+            <div class="pill-row">
+              <span class="pill" id="csvCount">0 rows</span>
+              <span class="pill ok" id="csvFound">0 found</span>
+              <span class="pill bad" id="csvMissing">0 missing</span>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table class="table" aria-label="CSV rows and output matches">
+              <thead>
+                <tr>
+                  <th>Jersey</th>
+                  <th>Song</th>
+                  <th>Start</th>
+                  <th>File</th>
+                  <th>Player</th>
+                </tr>
+              </thead>
+              <tbody id="csvTableBody">
+                <tr>
+                  <td colspan="5" class="muted">Upload a CSV and click Render.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h2>All available files</h2>
+            <div class="pill-row">
+              <span class="pill" id="allCount">Loading…</span>
+            </div>
+          </div>
+          <div class="row">
+            <input id="filter" class="input" type="text" placeholder="Filter (e.g. 23 or mario)" />
+            <button id="refreshManifest" class="btn" type="button">Reload</button>
+          </div>
+          <div id="filesList" class="files muted">Loading manifest…</div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Notes</h2>
+        <ul class="muted">
+          <li>
+            This site is static: it does <strong>not</strong> download from YouTube or run ffmpeg.
+            It only plays files already committed under <code>output/</code>.
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="container footer muted">
+      Built for GitHub Pages. Publish from the repo root so <code>output/</code> is accessible.
+    </footer>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
+
